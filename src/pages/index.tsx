@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from "next/head"
+import { List } from "../components/List"
 import { Container } from "./home"
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Container>
+        <List />
       </Container>
     </>
   )

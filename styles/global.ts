@@ -16,7 +16,12 @@ export const GlobalStyle = createGlobalStyle`
 
 --shape-img:#4A0709;
 --shape-hover:linear-gradient(180deg, #FA4949 0%, rgba(35, 35, 35, 0) 100%);
---shape-card:radial-gradient(142.29% 142.29% at -5.85% -42.29%, #232323 0%, rgba(35, 35, 35, 0) 100%);
+--shape-card:radial-gradient(
+    142.29% 142.29% at -5.85% -42.29%,
+    #232323 0%,
+    rgba(35, 35, 35, 0) 100%
+  );
+
 }
 
 html{
