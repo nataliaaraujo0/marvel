@@ -30,8 +30,8 @@ html{
 
 body{
   font-family: 'Roboto', sans-serif;
-  width: 1440px;
-  height: 1024px;
+ 
+ 
   background: linear-gradient(295.8deg, #101010 85.23%, #101010 88.52%, #ED1D24 99.31%, rgba(16, 16, 16, 0.138321) 100.74%);
 }
 `;

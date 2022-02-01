@@ -1,13 +1,17 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import { GlobalStyle } from "../../styles/global";
-
+import Head from "next/head"
+import { Container } from "./home"
 const Home: NextPage = () => {
   return (
     <>
-      <GlobalStyle />
-      <h1>ola mundo</h1>
+      <Head>
+        <title>
+          Marve characters
+        </title>
+      </Head>
+
+      <Container>
+      </Container>
     </>
   )
 }
